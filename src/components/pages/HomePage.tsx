@@ -191,7 +191,7 @@ export default function HomePage() {
           <WireframeRoom />
           
           {/* Floating Data Blocks - Parallax Elements */}
-          <div className="absolute inset-0 perspective-[1000px]">
+          <div className="absolute inset-0 perspective-[1000px] pointer-events-none">
             {mounted && (
               <>
                 <FloatingBlock x="15%" y="25%" width="120px" height="60px" delay={0.2} />
